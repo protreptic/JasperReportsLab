@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'jasperreports:jasperreports:3.5.3'
+    compile 'javax.money:money-api:1.0'
+    compile 'javax.money:money-api-bp:1.0'
+
+    testCompile 'junit:unit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+}
